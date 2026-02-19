@@ -5,7 +5,7 @@ async function main() {
     // Zmienna z naszym imieniem
     // const = stała (nie można jej później zmienić)
     const myName = "Adam";
-    const nazwisko = 'Kowalski'; 
+    const nazwisko = "Kowalski"; 
 
     // fetch() wysyła zapytanie HTTP do serwera
     // Czekamy (await) aż serwer odpowie
