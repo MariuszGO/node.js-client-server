@@ -22,7 +22,7 @@ const PORT = 3000;
 // HOST to adres IP.
 // 127.0.0.1 oznacza: "ten komputer" (localhost).
 // Czyli serwer będzie dostępny tylko na Twoim komputerze.
-const HOST = "127.0.0.1";
+const HOST = "192.168.1.63";
 
 /*
   Tworzymy serwer.

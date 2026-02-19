@@ -16,7 +16,7 @@ const http = require("http");
 // - jaka ścieżka
 // - jaką metodą (GET)
 const options = {
-  hostname: "127.0.0.1", // adres serwera
+  hostname: "192.168.1.63", // adres serwera
   port: 3000,            // port serwera
   path: "/",             // adres strony
   method: "GET"          // metoda HTTP

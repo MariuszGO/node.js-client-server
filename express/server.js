@@ -49,15 +49,15 @@ app.get("/", (req, res) => {
 });
 
 /*
-  Drugi endpoint: GET /hello?name=Adam
+  Drugi endpoint: GET /hello?name=Mariusz
   W przeglądarce/kliencie możesz wywołać:
-  http://127.0.0.1:3000/hello?name=Adam
+  http://127.0.0.1:3000/hello?name=Mariusz
 */
 app.get("/hello", (req, res) => {
   /*
     req.query to parametry w URL po znaku "?"
-    np. /hello?name=Adam
-    wtedy req.query.name = "Adam"
+    np. /hello?name=Mariusz
+    wtedy req.query.name = "Mariusz"
   */
   const name = req.query.name || "Nieznajomy";
 
