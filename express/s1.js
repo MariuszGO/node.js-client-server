@@ -69,23 +69,6 @@ app.post("/imie", (req, res) => {
 });
 
 
-// app.post("/naz", (req, res) => {
-  
-//     const naz = req.body.naz;
-  
-
-  
-//   console.log(`Osoba o imieniu: ${naz} była na serwerze`);
-  
-//   res.json({
-//     ok: true,
-//     message: `Witaj ${naz}. Jak się masz?`,
-//   });
-// });
-
-
-
-
 // 404 - obsługa błędnego adresu
 // Jeśli żaden endpoint nie pasuje, kod trafi tutaj
 app.use((req, res) => {
