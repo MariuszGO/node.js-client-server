@@ -9,7 +9,7 @@ async function main() {
 
     // fetch() wysyła zapytanie HTTP do serwera
     // Czekamy (await) aż serwer odpowie
-    const response = await fetch("http://192.168.1.63:3000/imie", {
+    const response = await fetch("http://192.168.99.107:3000/imie", {
 
       // Określamy metodę HTTP
       // POST = wysyłamy dane do serwera

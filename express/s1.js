@@ -78,8 +78,8 @@ app.use((req, res) => {
 
 // Uruchamiamy serwer
 // app.listen otwiera port i zaczyna nasłuchiwać
-app.listen(PORT, "192.168.1.63", () => {
+app.listen(PORT, "192.168.99.107", () => {
 
   // Ten komunikat pojawi się po uruchomieniu serwera
-  console.log(`Serwer Express działa: http://192.168.1.63:${PORT}`);
+  console.log(`Serwer Express działa: http://192.168.99.107:${PORT}`);
 });

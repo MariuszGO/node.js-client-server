@@ -59,13 +59,13 @@ app.get("/", (req, res) => {
       <!-- Pole tekstowe na imię -->
       <!-- name="name" to nazwa pola -->
       <!-- To stanie się: req.body.name -->
-      <input type="text" name="name" placeholder="Imię" required />
+      <input type="text" name="name" placeholder="Imię" maxlength="20" pattern='^[a-zA-ZąćęłńóśźżĄĆĘŁŃÓŚŹŻ ]+$'/>
 
       <br><br>
 
       <!-- Pole tekstowe na nazwisko -->
       <!-- To stanie się: req.body.naz -->
-      <input type="text" name="naz" placeholder="Nazwisko" required />
+      <input type="text" name="naz" placeholder="Nazwisko" maxlength="20" pattern='^[a-zA-ZąćęłńóśźżĄĆĘŁŃÓŚŹŻ ]+$'/>
 
       <br><br>
 
@@ -121,9 +121,9 @@ app.use((req, res) => {
   - otwiera port
   - zaczyna nasłuchiwać połączeń
 */
-app.listen(PORT, "192.168.1.63", () => {
+app.listen(PORT, "192.168.99.107", () => {
 
   // Ten komunikat pojawi się po uruchomieniu serwera
-  console.log(`Serwer działa pod adresem: http://192.168.1.63:${PORT}`);
+  console.log(`Serwer działa pod adresem: http://192.168.99.107:${PORT}`);
 
 });
